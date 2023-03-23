@@ -1,0 +1,51 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #eee;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  header h2, header p {
+    margin: 0;
+  }
+  
+  /* Main styles */
+  main {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  main h2 {
+    font-size: 2em;
+  }
+  
+  main h3 {
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+  
+  main p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em;
+  }
