@@ -89,6 +89,8 @@ hr {
     margin-right: 0.1rem;
     text-align: left;
     flex: 1.5; /* Adjust this value to give more space to info-details */
+    white-space: nowrap; /* Add this line */
+    overflow: hidden; /* Add this line */
 
 }
 
