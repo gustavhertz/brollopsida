@@ -79,11 +79,10 @@ hr {
 
 .info-labels {
     text-align: right;
-    margin-right: 2.5rem;
+    margin-right: 1.5rem;
 }
 
 .info-details {
-    margin-left: 0.2rem;
     margin-right: 0.1rem;
     text-align: left;
 }
