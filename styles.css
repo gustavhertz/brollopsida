@@ -68,7 +68,7 @@ hr {
     display: flex;
     justify-content: space-between;
     text-align: left;
-    width: 90%; 
+    width: 100%; 
     margin: 0 auto; 
 }
 .info-labels, .info-details {
