@@ -79,7 +79,7 @@ hr {
 .info-labels {
     text-align: right;
     margin-right: 1.5rem;
-    flex: 0.99; /* Adjust this value to give less space to info-labels */
+    flex: 1.0; /* Adjust this value to give less space to info-labels */
 
 }
 
@@ -113,5 +113,9 @@ hr {
         margin-right: 10px;
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+    .info-details {
+        flex: 2; /* Increase the flex value for info-details on smaller screens */
     }
 }
