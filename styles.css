@@ -80,11 +80,16 @@ hr {
 .info-labels {
     text-align: right;
     margin-right: 1.5rem;
+    flex: 0.8; /* Adjust this value to give less space to info-labels */
+
 }
 
 .info-details {
+    margin-left: 0.2rem;
     margin-right: 0.1rem;
     text-align: left;
+    flex: 1.5; /* Adjust this value to give more space to info-details */
+
 }
 
 .info-details p {
