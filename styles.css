@@ -8,6 +8,8 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
+    padding-top: 2rem; /* Add padding to the top */
+    padding-bottom: 2rem; /* Add padding to the bottom */
 }
 
 .content {
