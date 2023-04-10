@@ -1,3 +1,4 @@
+
 body, html {
     margin: 0;
     padding: 0;
@@ -17,27 +18,82 @@ body, html {
 }
 
 .info-box {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 3rem;
     border-radius: 10px;
     text-align: center;
-    max-width: 800px;
+    max-width: 600px;
+    min-width: 150px;
+    width: 90%;
 }
 
-h1, h2 {
-    font-family: 'Roboto Slab', serif;
+h1, h2, h3 {
+    font-family: 'Noto Serif Sinhala', serif;
+    font-weight: 400;
 }
 
 h1 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 0.25rem;
 }
 
 h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    margin-bottom: 1.0rem;
+}
+
+h3 {
+    font-size: 1.50rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
 }
 
 p {
-    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 1rem 0;
+}
+
+.practical-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    width: 55%; 
+    margin: 0 auto; 
+}
+.info-labels, .info-details {
+    flex: 1;
+}
+
+.info-labels {
+    text-align: center;
+}
+
+.info-details {
+    margin-left: 0.2rem;
+    margin-right: 0.1rem;
+    text-align: left;
+
+}
+
+/* Media queries for mobile responsiveness */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .info-box {
+        padding: 2rem;
+    }
 }
