@@ -65,7 +65,7 @@ hr {
     display: flex;
     justify-content: space-between;
     text-align: left;
-    width: 55%; 
+    width: 90%; 
     margin: 0 auto; 
 }
 .info-labels, .info-details {
@@ -73,7 +73,8 @@ hr {
 }
 
 .info-labels {
-    text-align: center;
+    text-align: right;
+    margin-right: 2.5rem;
 }
 
 .info-details {
@@ -95,5 +96,7 @@ hr {
 
     .info-box {
         padding: 2rem;
+        margin-left: 10px; /* Add this line */
+        margin-right: 10px; /* Add this line */
     }
 }
