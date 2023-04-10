@@ -96,7 +96,9 @@ hr {
 
     .info-box {
         padding: 2rem;
-        margin-left: 10px; /* Add this line */
-        margin-right: 10px; /* Add this line */
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
